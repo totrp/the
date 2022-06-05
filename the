@@ -44,7 +44,7 @@ local function align(i,v)
 local att0 = Instance.new("Attachment", i)
 att0.Position = Vector3.new(0,0,0) 
 local att1 = Instance.new("Attachment", v)
-att1.Position = Vector3.new(0,1.5,0)-- literally the same thing
+att1.Position = Vector3.new(0,1.25,0)-- literally the same thing
 			game:GetService("RunService").Heartbeat:Connect(function()
 att1.Rotation = att1.Rotation + Vector3.new(50,10,50)--rotation
 end)

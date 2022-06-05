@@ -35,7 +35,7 @@ local Character = Player.Character
 
 
 local Hats = {
-    dx = Character:WaitForChild("InternationalFedora"), -- the hat/body limb name
+    dx = Character:WaitForChild("DevAwardsGold"), -- the hat/body limb name
 
 }
 Hats.dx.Handle.AccessoryWeld:Remove()
